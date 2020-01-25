@@ -1,0 +1,148 @@
+*{
+	padding:0;
+	margin:0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: "Trebuchet MS";
+	font-size:1em;
+	font-weight:normal;
+	color:#fff;
+}
+p{
+	text-align: justify;
+	font-size:0.8em;
+	margin-bottom:1em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+}
+h1{
+	font-size:1.2em;
+	margin:10px 0;
+}
+h2{
+	font-size:1em;
+	margin:10px 0;
+}
+a:link,
+a:visited{
+	/*font-size:1em;*/
+	color:#fff;
+	text-decoration: underline;
+	font-weight:bold;
+}
+a:hover,
+a:focus,
+a:active{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+#sfondo-css{
+		position:absolute;
+		height:100%;
+		width:100%;
+		z-index:1;
+}
+
+#top{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:95%;
+	z-index: 2;
+	overflow: auto;
+	/*margin-bottom:1%;*/
+}
+#footer{
+	position:absolute;
+	top:95%;
+	left:0;
+	background:#000;
+	width:100%;
+	min-height:5%;
+	z-index: 3;
+}
+#footer p{
+	color:#b3c7e7;
+	font-size:0.8em;
+	text-align:right;
+	padding:5px 50px;
+}
+
+#top img.logo{
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+
+#menu{
+	position:relative;
+	top:100px;
+	min-height:118px;
+	height:auto!important;
+	height:118px;
+	background-color:#b3c7e7;
+	margin-left:400px;
+}
+#content{
+	position:relative;
+	top:110px;
+	height:auto;
+	background-color:#3d4551;
+	margin-left:400px;
+	padding:20px 190px;
+	border-radius:0 0 0 20px;
+	-moz-border-radius:0 0 0 20px;
+	overflow: auto;
+	max-height:300px;
+}
+
+/* ===	inizio formattazione listato menu	=== */
+ul.istituzionale {
+	list-style: none;
+	min-height: 19px;
+	height:auto!important;
+	height:19px;
+	width:auto;
+	position: absolute;
+	margin:50px 0 0 50px;
+}
+ul.istituzionale li{
+	height: 19px;
+	float:left;
+	text-transform: uppercase;
+   font-weight:normal;
+   font-size:0.8em;
+   margin-right:20px;
+}
+ul.istituzionale li a:link,
+ul.istituzionale li a:visited{
+   color:#000;
+   text-decoration: none;
+   font-weight:normal;
+}
+ul.istituzionale li a:hover,
+ul.istituzionale li a:focus,
+ul.istituzionale li a:active{
+	color:#fff;
+}
+
+/* ===	fine formattazione listato menu	=== */
+ul.lista {
+	margin:20px;
+}   
+ul.lista li{
+	font-size:0.8em;
+}
+.tel{
+	font-size:1.8em;
+	font-weight:bold;
+	color:#b3c7e7;
+}
